@@ -50,8 +50,8 @@ export const BreakingNewsTicker: React.FC<BreakingNewsTickerProps> = ({ onSelect
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         <div className="flex items-center justify-between gap-3 bg-gradient-to-r from-red-50 via-amber-50 to-indigo-50 border border-red-200/60 rounded-xl px-3 py-1.5">
           {/* Breaking News Label */}
-          <div className="flex items-center gap-1.5 shrink-0 bg-red-600 text-white text-[11px] font-bold px-2.5 py-1 rounded-lg uppercase tracking-wider shadow-xs">
-            <Zap className="w-3.5 h-3.5 animate-pulse text-amber-300" />
+          <div className="flex items-center gap-1 shrink-0 bg-red-600 text-white text-[10px] sm:text-[11px] font-bold px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-md sm:rounded-lg uppercase tracking-wider shadow-xs">
+            <Zap className="w-3 h-3 sm:w-3.5 sm:h-3.5 animate-pulse text-amber-300" />
             <span>Kilas Berita</span>
           </div>
 

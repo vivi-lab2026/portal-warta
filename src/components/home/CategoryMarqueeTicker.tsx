@@ -6,7 +6,7 @@ export const CategoryMarqueeTicker: React.FC = () => {
 
   // One block of text with consistent trailing gap
   const renderItem = (id: string) => (
-    <div key={id} className="flex items-center shrink-0 pr-12 sm:pr-16">
+    <div key={id} className="flex items-center shrink-0 pr-8 sm:pr-14">
       <span className="text-xs sm:text-sm font-bold tracking-wide text-white whitespace-nowrap drop-shadow-xs">
         {tickerText}
       </span>
@@ -14,7 +14,7 @@ export const CategoryMarqueeTicker: React.FC = () => {
   );
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-4">
+    <div className="w-full max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 my-2.5 sm:my-4">
       {/* Self-contained CSS styles ensuring constant velocity, smooth infinite loop & reduced-motion compliance */}
       <style>{`
         @keyframes wartaHukumMarquee {
