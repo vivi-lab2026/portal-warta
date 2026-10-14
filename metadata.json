@@ -1,0 +1,8 @@
+{
+  "name": "WARTA HUKUM - Portal Berita Hukum & Kriminal Indonesia Terpercaya",
+  "description": "Portal media berita digital profesional menyajikan informasi hukum, kriminal, peradilan, kejaksaan, kepolisian, korupsi, politik, nasional, dan daerah secara aktual dan independen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
